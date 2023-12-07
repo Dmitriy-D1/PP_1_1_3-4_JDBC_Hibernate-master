@@ -7,9 +7,9 @@ import java.sql.SQLException;
 public class Util {
     // реализуйте настройку соеденения с БД
     //  Требуется заполнить данные вашей локальной БД
-    private static final String URL_KEY = "jdbc:postgresql://localhost:...";
-    private static final String USER_KEY = "...";
-    private static final String PASSWORD_KEY = "...";
+    private static final String URL_KEY = "jdbc:postgresql://localhost:5432/";
+    private static final String USER_KEY = "";
+    private static final String PASSWORD_KEY = "";
 
     public static Connection getConnection() throws SQLException {
 
